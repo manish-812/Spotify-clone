@@ -102,7 +102,7 @@ body{
     background-color: #232323;
     height: 8rem;
     border-radius: 0.75rem;
-    margin: 0.75rem 0 1.75rem 0;
+    margin: 0.30rem 0 1.30rem 0;
     padding: 0.75rem 1rem;
  }
 
@@ -163,7 +163,7 @@ body{
  
 .card{
     background-color: #232323;
-    width: 200px;
+    width: 175px;
     border-radius: 0.5rem;
     padding: 1rem;
     margin-left: 1.5rem; 
@@ -220,6 +220,7 @@ align-items: center;
    width: 25%;
    display: flex;
    justify-content: center;
+   align-items: center;
 }
 .player-controls{
    display:flex;
@@ -282,13 +283,13 @@ align-items: center;
 }
 
 .one{
-   font-size: 1rem;
+   font-size: 0.8rem;
    opacity: 1;
-   font-weight: 700;
+   font-weight: 600;
 }
 
 .two{
-   font-size: 0.8rem;
+   font-size: 0.6rem;
    opacity: 0.7;
    }
 
@@ -304,7 +305,12 @@ align-items: center;
 }
 
 .controls-icon{
-   height: 1.5rem;
-   width: 1.5rem;
+   height: 1rem;
+   width: 1rem;
    margin-right: 1rem;
+   
    }
+
+.curr-time{
+   font-size: 0.8rem;
+}
